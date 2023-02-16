@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/*
+Author: Keegan Colter
+Date: Feb 16, 2023
+*/
+
+#resumeTop {
+    display: grid;
+    gap: 42px;
+    grid-auto-rows: 3;
+    grid-auto-columns: 3;
+    
+}
+
+#resume1 {
+    float: left;
+    background-color: blue;
+}
+
+#resume2 {
+    float: right;
+    background-color: green;
+}
+
+#resume3 {
+    float: right;
+    background-color:olivedrab;
+}
+
+#resume4 {
+    float: right;
+    background-color: yellow;
+}
+
+#resume5 {
+    float: right;
+    background-color: black;
+}
+
+#resume6 {
+    float: right;
+    background-color: aqua;
+}
