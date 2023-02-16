@@ -5,8 +5,8 @@ Date: Feb 3, 2023
 */
 
 body {
-    background-color: blue;
-    color: white;
+    background-color: #FFF8E7;
+    color: #003153;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -18,7 +18,7 @@ body {
 
 #resumeBody{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: red;
+    background-color: #003153;
     color: white;
 
 }
