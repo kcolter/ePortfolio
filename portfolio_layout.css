@@ -55,11 +55,13 @@ Date: Feb 16, 2023
 
 }
 
+/*Tablet*/
 @media only screen and (min-width: 769px){
 
 
 }
 
+/*Desktop*/
 @media only screen and (min-width: 1024px){
 
 }
