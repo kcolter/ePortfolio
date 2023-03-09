@@ -52,7 +52,18 @@ Date: Feb 16, 2023
 
 /*Mobile Phone*/
 @media only screen and (max-width: 768px){
-
+    .grid-container {
+        display: grid;
+        grid-template-areas: 
+        'item1'
+        'item2'
+        'item3'
+        'item4'
+        'item5';
+        gap: 10px;
+        padding: 5px;
+        
+    }
 }
 
 /*Tablet*/
