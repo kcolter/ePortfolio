@@ -9,3 +9,13 @@ body {
     color: #003153;
     font-family: 'Times New Roman', Times, serif;
 }
+
+#directory{
+    background-color: #003153;
+    color: #FFF8E7;
+}
+
+#directory a{
+    background-color: #003153;
+    color: #FFF8E7;
+}
