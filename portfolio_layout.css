@@ -4,3 +4,6 @@ Author: Keegan Colter
 Date: Feb 16, 2023
 */
 
+#contactBody p{
+    display: inline-flex;
+}
