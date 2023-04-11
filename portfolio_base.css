@@ -9,38 +9,3 @@ body {
     color: #003153;
     font-family: 'Times New Roman', Times, serif;
 }
-
-#indexBody{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: blue;
-    color: white;
-}
-
-#resumeBody{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #003153;
-    color: white;
-
-}
-
-#skillsBody{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: green;
-    color: white;
-}
-
-#futureBody{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: blueviolet;
-    color: white;
-}
-
-#contactBody {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: black;
-    color: white;
-}
-
-img {
-    width: 1000px;
-}
