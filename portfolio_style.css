@@ -7,6 +7,14 @@ Date: Feb 3, 2023
 
 @media only screen and (max-width: 768px){
 
+    body{
+        background-color: #003153;
+        color: #FFF8E7;
+    }
+
+    a{
+        color: #FFF8E7;
+    }
 }
 
 /*Tablet*/
@@ -14,6 +22,10 @@ Date: Feb 3, 2023
 	
     body{
         background-color: #003153;
+        color: #FFF8E7;
+    }
+
+    a{
         color: #FFF8E7;
     }
 

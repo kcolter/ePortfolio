@@ -5,7 +5,13 @@ Date: Feb 16, 2023
 */
 /*Mobile phone*/
 @media only screen and (max-width: 768px){
+    *{
+        text-align: center;
+    }
 
+    ul{
+        list-style-position: inside;
+    }
 }
 
 /*Tablet*/
