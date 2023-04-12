@@ -3,3 +3,18 @@
 Author: Keegan Colter
 Date: Feb 16, 2023
 */
+/*Mobile phone*/
+@media only screen and (max-width: 768px){
+
+}
+
+/*Tablet*/
+@media only screen and (min-width: 769px){
+	
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1024px){
+
+}
+
