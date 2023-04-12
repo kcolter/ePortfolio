@@ -12,6 +12,11 @@ Date: Feb 3, 2023
 /*Tablet*/
 @media only screen and (min-width: 769px){
 	
+    body{
+        background-color: #003153;
+        color: #FFF8E7;
+    }
+
 }
 
 /*Desktop*/
