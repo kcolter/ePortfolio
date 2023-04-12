@@ -5,7 +5,7 @@ Date: Feb 3, 2023
 */
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1023px){
 
     body{
         background-color: #003153;
@@ -15,20 +15,6 @@ Date: Feb 3, 2023
     a{
         color: #FFF8E7;
     }
-}
-
-/*Tablet*/
-@media only screen and (min-width: 769px){
-	
-    body{
-        background-color: #003153;
-        color: #FFF8E7;
-    }
-
-    a{
-        color: #FFF8E7;
-    }
-
 }
 
 /*Desktop*/

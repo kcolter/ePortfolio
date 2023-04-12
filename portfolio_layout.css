@@ -4,7 +4,7 @@ Author: Keegan Colter
 Date: Feb 16, 2023
 */
 /*Mobile phone*/
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1023px){
     *{
         text-align: center;
     }
@@ -12,11 +12,6 @@ Date: Feb 16, 2023
     ul{
         list-style-position: inside;
     }
-}
-
-/*Tablet*/
-@media only screen and (min-width: 769px){
-	
 }
 
 /*Desktop*/
