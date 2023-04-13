@@ -3,10 +3,28 @@
 Author: Keegan Colter
 Date: Feb 16, 2023
 */
-/*Mobile phone*/
+
+/*Mobile phone and Tablet*/
 @media only screen and (max-width: 1023px){
     *{
         text-align: center;
+        font-size: larger;
+    }
+
+    #contentArea{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #hamburger{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #burgerMenuOpen, #burgerMenuClose{
+        width: 25px;
+        height: 25px;
     }
 
     ul{
@@ -24,14 +42,19 @@ Date: Feb 16, 2023
         right: 0;
         bottom: 0;
         z-index: 99;
-        background: black;
+        background: #003153;
         color: white;
         list-style: none;
         padding-top: 4rem;
+
     }           
 
     .showMenu{
         transform: translateY(0);
+    }
+
+    .closeIcon{
+        display: none;
     }
 
     .hamburgerButton{
@@ -43,9 +66,14 @@ Date: Feb 16, 2023
         border: black solid 1px;
         background: white;
         cursor: pointer;
+        size: 10px;
     }
-          
 
+    /*carraige returns before each menuItem, allowing for vertical drop-down menu for hamburger menu*/
+    .menuItem::before {
+        content: '\A'; /*\A being the carriage return character*/
+        white-space: pre;
+    }
 }
 
 /*Desktop*/

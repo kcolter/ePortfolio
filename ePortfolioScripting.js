@@ -22,8 +22,4 @@ function toggleMenu(){
       }
 }
 
-function OnLoad(){
-
-}
-
 hamburgerButton.addEventListener('click', toggleMenu);
