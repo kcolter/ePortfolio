@@ -11,6 +11,12 @@ Date: Feb 16, 2023
         font-size: larger;
     }
 
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        align-content: center;
+    }
+
     #contentArea{
         margin-left: 5%;
         margin-right: 5%;

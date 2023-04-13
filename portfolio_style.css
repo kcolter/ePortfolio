@@ -4,7 +4,7 @@ Author: Keegan Colter
 Date: Feb 3, 2023
 */
 
-
+/*Phone and Tablet*/
 @media only screen and (max-width: 1023px){
 
     .menu{
@@ -25,6 +25,14 @@ Date: Feb 3, 2023
     a{
         color: #FFF8E7;
     }
+    
+    .grid-container div{
+        border: #FFF8E7 1px solid;
+    }
+
+    .item6 div{
+        border: #FFF8E7 1px solid;
+    }
 }
 
 /*Desktop*/
@@ -41,6 +49,7 @@ Date: Feb 3, 2023
     #contentArea{
         padding-left: 30%;
         padding-right: 30%;
+        font-size: larger;
     }
     
     #directory{
@@ -67,6 +76,10 @@ Date: Feb 3, 2023
         font-size: xx-large;
     }
 
+    .item1 p{
+        font-size: large;
+    }
+
     .item2{
         border-right: solid 1px #003153;
     }
@@ -84,16 +97,18 @@ Date: Feb 3, 2023
     }
 
     .item6{
-        border: solid 1px #003153;
-        border-left: none;
+        border-top: solid 2px #003153;
     }
 
     .item6_1{
         border-right: solid 1px #003153;
+        border-top: solid 2px #003153;
     }
 
     .item6_2{
+        border-top: solid 2px #003153;
         border-left: solid 1px #003153;
+        border-bottom: solid 2px #003153;
     }
 }
 
