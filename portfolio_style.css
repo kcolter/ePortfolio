@@ -60,5 +60,40 @@ Date: Feb 3, 2023
     a{
         color: #003153;
     }
+
+    .item1{
+        border-left: solid 2px #003153;
+        border-bottom: solid 2px #003153;
+        font-size: xx-large;
+    }
+
+    .item2{
+        border-right: solid 1px #003153;
+    }
+
+    .item3{
+        border-left: solid 1px #003153;
+    }
+
+    .item4{
+        border-right: solid 1px #003153;
+    }
+
+    .item5{
+        border-left: solid 1px #003153;
+    }
+
+    .item6{
+        border: solid 1px #003153;
+        border-left: none;
+    }
+
+    .item6_1{
+        border-right: solid 1px #003153;
+    }
+
+    .item6_2{
+        border-left: solid 1px #003153;
+    }
 }
 
