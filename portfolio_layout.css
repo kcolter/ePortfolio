@@ -50,7 +50,9 @@ Date: Feb 16, 2023
 
 /*Desktop*/
 @media only screen and (min-width: 1024px){
-    
+    .hamburgerButton{
+        display: none;
+    }
 }
 
 #resumeItem1{
