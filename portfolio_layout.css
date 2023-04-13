@@ -42,8 +42,6 @@ Date: Feb 16, 2023
         right: 0;
         bottom: 0;
         z-index: 99;
-        background: #003153;
-        color: white;
         list-style: none;
         padding-top: 4rem;
 
@@ -63,8 +61,6 @@ Date: Feb 16, 2023
         top: 1rem;
         right: 1rem;
         padding: 4px;
-        border: black solid 1px;
-        background: white;
         cursor: pointer;
         size: 10px;
     }
@@ -78,12 +74,76 @@ Date: Feb 16, 2023
 
 /*Desktop*/
 @media only screen and (min-width: 1024px){
+
+    p{
+        font-size: larger;
+    }
+
     .hamburgerButton{
         display: none;
     }
-}
 
-#resumeItem1{
-    align-content: center;
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        align-content: center;
+    }
+
+    .grid-container *{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .item1{
+        grid-column: 1 / span 2;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .item2{
+        text-align: right;
+        list-style-position: inside;
+        direction: rtl;
+    }
+
+    .item3{
+        text-align: left;
+    }
+
+    .item4{
+        text-align: right;
+        direction: rtl;
+    }
+
+    .item5{
+        text-align: left;
+    }
+
+    .item6 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .item6 h2{
+        grid-column: 1 / span 2;
+        text-align: center;
+    }
+
+    .item6_1{
+        grid-column: 1 / span 1;
+        text-align: right;
+        direction: rtl;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .item6_2{
+        grid-column: 2 / span 1;
+        padding-left: 3%;
+        padding-right: 3%;
+        text-align: left;
+    }
+
+
 }
 

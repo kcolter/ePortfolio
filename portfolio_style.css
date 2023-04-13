@@ -7,6 +7,16 @@ Date: Feb 3, 2023
 
 @media only screen and (max-width: 1023px){
 
+    .menu{
+        background: #003153;
+        color: white;
+    }
+
+    .hamburgerButton{
+        border: black solid 1px;
+        background: white;
+    }
+
     body{
         background-color: #003153;
         color: #FFF8E7;
